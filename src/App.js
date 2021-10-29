@@ -14,7 +14,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <a class="skip-main" href="#main">
+      <a className="skip-main" href="#main">
         Skip to main content
       </a>
       <Provider store={store}>
