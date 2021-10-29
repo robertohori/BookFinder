@@ -1,0 +1,18 @@
+main {
+  min-height: 90vh;
+}
+#app-header {
+}
+.page {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+#app-footer {
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 5px 0;
+}
+
+.cover {
+  margin-right: 1%;
+}
