@@ -25,6 +25,10 @@ a.skip-main {
   height: 1px;
   overflow: hidden;
   z-index: -999;
+  background-color: #fefffe;
+  border: 2px solid #005fcb;
+  color: #005fcb;
+  /* display: none; */
 }
 a.skip-main:focus,
 a.skip-main:active {
@@ -36,6 +40,7 @@ a.skip-main:active {
   height: auto;
   overflow: auto;
   margin: 10px 35%;
+  display: block;
   padding: 5px;
   border-radius: 15px;
   border: 2px solid #005fcb;
