@@ -13,15 +13,20 @@ import "./App.css";
 
 function App() {
   return (
-    <Provider store={store}>
-      <ConnectedRouter history={history}>
-        <div className="app">
-          <Header />
-          <main>{routes}</main>
-        </div>
-        <Footer />
-      </ConnectedRouter>
-    </Provider>
+    <>
+      <a class="skip-main" href="#main">
+        Skip to main content
+      </a>
+      <Provider store={store}>
+        <ConnectedRouter history={history}>
+          <div className="app">
+            <Header />
+            <main id="main">{routes}</main>
+          </div>
+          <Footer />
+        </ConnectedRouter>
+      </Provider>
+    </>
   );
 }
 
