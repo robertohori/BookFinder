@@ -16,7 +16,7 @@ export const getBooks = ({ query, sort, qtdPage, page }) => {
   return function (dispatch) {
     dispatch(requestBooks(query));
 
-    const url = `http://openlibrary.org/search.json?q=${query}${`&limit=10`}&page=${
+    const url = `https://openlibrary.org/search.json?q=${query}${`&limit=10`}&page=${
       page ? page : 1
     }${
       sort === "title_desc" || sort === "title_asc"

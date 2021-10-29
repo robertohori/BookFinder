@@ -1,7 +1,6 @@
 import React from "react";
 import { render, unmountComponentAtNode } from "react-dom";
 import { act } from "react-dom/test-utils";
-import { screen } from "@testing-library/react";
 import App from "./App";
 
 let container = null;
