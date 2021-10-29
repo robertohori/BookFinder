@@ -2,9 +2,11 @@
 
   Around 4 hours
   * **What would you add to your solution if you had more time?**
+  
   Probably external search using a router or create another project complete in ES6. 
 
   * **If you didn't spend much time on the coding test, then use this as an opportunity to explain what you would add.**
+
 Probably I could create more testing, cypress, or something like that. 
 
 * **What was the most useful feature that was added to the latest version of your chosen language?Please include a snippet of code that shows how you've used it.**
