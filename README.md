@@ -24,3 +24,64 @@
       Unfortunately, I couldn't add the order by title, I checked the documentation, and it seems like they will release it soon. It is still waiting for commit.
       I also tried to load all and kind of sort by title, but I didn't like it for two reasons: they don't allow me to load all content. Second, because it was slow, but they should definitely add it.
       What I did was for the pagination. It will order by title, but not for the whole results. https://github.com/internetarchive/openlibrary/issues/201
+
+- **Please describe yourself using correctly formatted JSON.**
+
+```{
+   "fullName":"Roberto Massao Hori Filho",
+   "age":36,
+   "nationality":"Brazilian",
+   "Skills":{
+      "toolsTechnologies":[
+         "WCAG",
+         "JavaScript",
+         "TypeScript",
+         "React.js",
+         "React Native",
+         "AngularJS",
+         "Node.js",
+         "Express.js",
+         "JavaScriptMVC",
+         "PHP",
+         "Lavarel",
+         "HTML5",
+         "ARIA",
+         "ATAG",
+         "Cascading Style Sheets (CSS)",
+         "SASS",
+         "jQuery",
+         "Git",
+         "MongoDB",
+         "SQL",
+         "Oracle",
+         "REST API",
+         "AWS",
+         "Ionic Framework",
+         "DigitalOcean",
+         "Apache Cordova"
+      ],
+      "industryKnowledge":[
+         "Web Development",
+         "Mobile Applications",
+         "User Experience (UX)",
+         "Data Structures",
+         "Search Engine Optimization (SEO)",
+         "Digital Marketing",
+         "Wireframing",
+         "E-commerce",
+         "User Interface Design",
+         "Requirements Gathering",
+         "Agile Methodologies",
+         "Data Migration",
+         "Data Modeling",
+         "Extract, Transform, Load (ETL)"
+      ]
+   },
+   "hobby":[
+      "BJJ",
+      "Cooking",
+      "GYM"
+   ],
+   "goal":"Make more websites accessible for everybody."
+}
+```
