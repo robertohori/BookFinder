@@ -94,7 +94,7 @@ const PaginationComponent = ({
   return (
     <>
       <div id="paginationControl" role="navigation" aria-label="Pagination">
-        <ul className="pageNumbers">
+        <ul className="pageNumbers list">
           {pageDecrementBtn}
           {renderPageNumbers}
           {pageIncrementBtn}

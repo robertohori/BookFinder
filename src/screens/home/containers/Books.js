@@ -108,7 +108,7 @@ const Books = ({ getBooks, data, isFetching, query, error }) => {
         {data && data.numFound > 0 ? (
           <div>
             <span>Order by: </span>
-            <ul className="pageNumbers">
+            <ul className="topButtons list">
               <li>
                 <button
                   aria-label={`Order by most editions ${
@@ -194,9 +194,7 @@ const Books = ({ getBooks, data, isFetching, query, error }) => {
         ) : (
           ""
         )}
-
         {jsxStr}
-
         <Pagination
           totalRegister={data ? data.numFound : 0}
           currentpage={currentpage}
