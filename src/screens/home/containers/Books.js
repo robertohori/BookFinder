@@ -216,8 +216,6 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 const mapStateToProps = (state) => {
-  console.log("mapStateToProps:", state);
-
   let { data, isFetching, query, error } = state.books;
   return {
     data,

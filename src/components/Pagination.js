@@ -7,8 +7,11 @@ const PaginationComponent = ({
   childFunc,
 }) => {
   React.useEffect(() => {
-    childFunc.current = updateCurrentPage;
-  }, []);
+    const callCurrentPage = () => {
+      childFunc.current = updateCurrentPage;
+    };
+    callCurrentPage();
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const updateCurrentPage = (props) => {
     startPages(props.totalRegister);
