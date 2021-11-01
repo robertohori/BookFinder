@@ -46,15 +46,15 @@ const BookList = ({ books }) => {
                     <ul>
                       {book.publish_date.map((date, i) => (
                         <li key={i}>
-                          <Moment format="MMMM DD YYYY">
+                          <Moment format="MMMM DD YYYY" parse="MMMM DD YYYY">
                             {new Date(date)}
                           </Moment>
                         </li>
                       ))}
                     </ul>
                   ) : (
-                    <Moment format="MMMM DD YYYY">
-                      {book.publish_date[0]}
+                    <Moment format="MMMM DD YYYY" parse="MMMM DD YYYY">
+                      {new Date(book.publish_date[0])}
                     </Moment>
                   )
                 ) : (
